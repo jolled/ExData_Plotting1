@@ -14,7 +14,7 @@ data <- subset(household_PC, Date >= "2007-02-01" & Date <= "2007-02-02")
 
 ## Plot 3
 par(bg="transparent")
-plot(data$Sub_metering_1~data$datetime, ylab="Global Active Power", xlab="", type="l")
+plot(data$Sub_metering_1~data$datetime, ylab="Energy sub metering", xlab="", type="l")
 lines(data$Sub_metering_2~data$datetime,col='Red')
 lines(data$Sub_metering_3~data$datetime,col='Blue')
 
