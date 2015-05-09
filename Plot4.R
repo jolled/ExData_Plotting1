@@ -1,5 +1,3 @@
-2075259*9/1000/1000*8   #numeric 8 bytes per number  ~150 MB * 2 (for header bla bla).. much less than my computer memory
-
 #Read File (make sure the file is in current directory)
 household_PC <- read.table("household_power_consumption.txt", header=T, sep=";", na.strings="?")
 
